@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+   <body>
+      <table border = 1>
+         {% for key1 in i %}
+            <tr>
+	         {% for key2 in j %}		
+               <td> {{key1}}*{{key2}}={{key1*key2}} </td>
+             {% endfor %}
+
+            </tr>
+         {% endfor %}
+      </table>
+   </body>
+</html>
